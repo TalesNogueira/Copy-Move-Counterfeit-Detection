@@ -23,7 +23,7 @@ class Block(object):
         blockData = []
 
         blockData.append(self.coordinate)
-        blockData.append(self.principalComponentAnalysis(precision = 5)) # Precision - Numeros apos a virgula do componente em questao
+        blockData.append(self.principalComponentAnalysis(precision = 5)) # Is relative to the numbers after the comma of the component in question
 
         return blockData
 
@@ -40,6 +40,6 @@ class Block(object):
         principalComponents = pca.components_
 
         result = [round(element, precision)
-                 for element in list(principalComponents.flatten())] # Aproxima o bloco a um valor unico baseado em seus pixels via PCA linearizado
+                 for element in list(principalComponents.flatten())] # Approximates the block to a single value based on its pixels via linearized PCA
 
         return result
