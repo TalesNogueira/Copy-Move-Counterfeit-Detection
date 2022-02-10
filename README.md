@@ -9,3 +9,18 @@ All credits granted to Rahmat Nazali.
 
 @TalesNogueira
     
+## Execution of the algorithm
+
+To run the algorithm, just follow the steps below. Remembering that the folder containing the PNG datasets to be checked is "..\Copy_Move_Counterfeit_Detection\dataset\multi_paste".
+
+    1. Install python3+
+
+    2. Install libraries listed in "library.txt"
+
+    3. Execute "main.py"
+
+    4. Choose an image by its index number listed
+
+    5. Choose a number positive and non-zero to be the blocksize
+
+    6. Enjoy yours results in the "output" folder
