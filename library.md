@@ -1,4 +1,4 @@
-    The following libraries were used in python3 to run the algorithm in question:
+### The following libraries were used in python3 to run the algorithm in question:
         1. os
         2. pathlib
         3. Image
