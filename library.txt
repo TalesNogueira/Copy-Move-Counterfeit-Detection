@@ -1,0 +1,9 @@
+    The following libraries were used in python3 to run the algorithm in question:
+        > os
+        > pathlib
+        > Image
+        > math
+        > numpy
+        > tqdm
+        > imageio
+        > time
